@@ -1,0 +1,17 @@
+{
+  "name": "aparat-automation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium:headed": "playwright test --project=chromium --headed",
+    "test:simple": "playwright test tests/aparat-flow.spec.ts",
+    "test:all": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "typescript": "^5.6.0"
+  }
+}
